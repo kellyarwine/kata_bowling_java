@@ -7,8 +7,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kata/bowling/Game.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/kata/bowling/GameTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kata/bowling/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kata/bowling/Scorer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/kata/bowling/ScorerTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kata/bowling/Throw.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/kata/bowling/ThrowTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_10.xml" />
@@ -24,10 +22,8 @@
     <file path="/FrameTest.java" changelist="5de10383-a35f-4af7-bfb1-a73dac2d3250" time="1368737330479" ignored="false" />
     <file path="/Frame.java" changelist="5de10383-a35f-4af7-bfb1-a73dac2d3250" time="1368738235425" ignored="false" />
     <file path="/Main.java" changelist="5de10383-a35f-4af7-bfb1-a73dac2d3250" time="1368734835184" ignored="false" />
-    <file path="/GameTest.java" changelist="5de10383-a35f-4af7-bfb1-a73dac2d3250" time="1368801348935" ignored="false" />
-    <file path="/Game.java" changelist="5de10383-a35f-4af7-bfb1-a73dac2d3250" time="1368805654589" ignored="false" />
-    <file path="/Scorer.java" changelist="5de10383-a35f-4af7-bfb1-a73dac2d3250" time="1368802400577" ignored="false" />
-    <file path="/ScorerTest.java" changelist="5de10383-a35f-4af7-bfb1-a73dac2d3250" time="1368798261582" ignored="false" />
+    <file path="/GameTest.java" changelist="5de10383-a35f-4af7-bfb1-a73dac2d3250" time="1368763860677" ignored="false" />
+    <file path="/Game.java" changelist="5de10383-a35f-4af7-bfb1-a73dac2d3250" time="1368764391831" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,19 +84,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kata/bowling/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="9" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scorer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kata/bowling/Scorer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="36" selection-start="1259" selection-end="1259" vertical-scroll-proportion="1.4627659">
+            <state line="35" column="0" selection-start="937" selection-end="951" vertical-scroll-proportion="0.20274241">
               <folding />
             </state>
           </provider>
@@ -109,10 +96,8 @@
       <file leaf-file-name="GameTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/kata/bowling/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="55" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="132" column="5" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,9 +125,6 @@
         <option value="$PROJECT_DIR$/src/com/kata/bowling/Main.java" />
         <option value="$PROJECT_DIR$/test/com/kata/bowling/FrameTest.java" />
         <option value="$PROJECT_DIR$/src/com/kata/bowling/Frame.java" />
-        <option value="$PROJECT_DIR$/test/com/kata/bowling/Scorer.java" />
-        <option value="$PROJECT_DIR$/test/com/kata/bowling/ScorerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/kata/bowling/Scorer.java" />
         <option value="$PROJECT_DIR$/test/com/kata/bowling/GameTest.java" />
         <option value="$PROJECT_DIR$/src/com/kata/bowling/Game.java" />
       </list>
@@ -331,28 +313,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ScorerTest.testTwoThrowsNoMark" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="kata_bowling_java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kata.bowling" />
-      <option name="MAIN_CLASS_NAME" value="com.kata.bowling.ScorerTest" />
-      <option name="METHOD_NAME" value="testTwoThrowsNoMark" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -408,18 +368,16 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FrameTest.testScoreNoThrows" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FrameTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ScorerTest.testTwoThrowsNoMark" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ScorerTest.testTwoThrowsNoMark" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FrameTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FrameTest.testScoreNoThrows" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FrameTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FrameTest.testScoreNoThrows" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -439,23 +397,23 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20512821" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24709609" sideWeight="0.74453944" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24709609" sideWeight="0.7948718" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39981008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2554606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15384616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20512821" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -532,9 +490,7 @@
     <entry file="file://$PROJECT_DIR$/test/com/kata/bowling/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="5" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -577,32 +533,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/kata/bowling/ScorerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.10638298">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/kata/bowling/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="55" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="132" column="5" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kata/bowling/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="9" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kata/bowling/Scorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="36" selection-start="1259" selection-end="1259" vertical-scroll-proportion="1.4627659">
+        <state line="35" column="0" selection-start="937" selection-end="951" vertical-scroll-proportion="0.20274241">
           <folding />
         </state>
       </provider>
